@@ -1,0 +1,338 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Sans Pro', sans-serif;
+    line-height: 1.6rem;
+}
+
+/* navbar */
+.navbar {
+    margin-top: 20px;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+.logo img{
+    width: 30px;
+}
+
+.navbar ul {
+    display: flex;
+    width: 100%;
+}
+ul li {
+    list-style-type: none;
+}
+nav {
+    display: flex;
+}
+nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+    color: #191919;
+    font-weight: bold;
+}
+input {
+    font-size: 16px;
+    padding: 7px 10px;
+    color: #ffffff;
+    background-color: #191919;
+    margin-left: 20px;
+    border-radius: 5px;;
+}
+.burger {
+    display: none;
+}
+.burger div {
+    width: 25px;
+    height: 4px;
+    background-color: black;
+    margin: 5px;
+}
+
+.showcase1 {
+    padding-top: 30px;
+}
+
+.showcase1 .tool-design {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+}
+.showcase1 h1 {
+    font-size: 65px;
+    font-weight: bold;
+}
+.box-left {
+    line-height: 70px;
+}
+.box-left p {
+    line-height: normal;
+    margin: 30px 0;
+}
+.box-left a {
+    text-decoration: none;
+}
+.box-left .free {
+    font-size: 20px;
+    color: lavenderblush;
+    background-color: black;
+    display: inline-block;
+    text-align: center;
+    padding: 13px 25px ;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.box-right .img-icon img {
+    width: 100%;
+}
+
+.showcase2 {
+    width: 100%;
+    margin-top: 80px;
+    background-color: #e5e5e5;
+    height: 120vh;
+}
+.showcase2 .title {
+    text-align: center;
+}
+.showcase2 .title h1 {
+    font-size: 30px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+.showcase2 .title p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.showcase2 .img-letter {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.showcase2 .conduct img {
+    width: 100%;
+}
+.conduct .t-bottom {
+    margin: 20px;
+    font-size: 15px;
+}
+.conduct .t-bottom h2 {
+    margin-bottom: 20px;
+}
+.showcase2 .free {
+    font-size: 20px;
+    color: lavenderblush;
+    background-color: black;
+    display: inline-block;
+    margin: 0 35%;
+    padding: 13px 25px ;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.showcase3 {
+    width: 100%;
+}
+.showcase3 .content {
+    display: flex;
+    flex-direction: row;
+}
+.showcase3 img {
+    width: 80%;
+}
+.content .cloud-right {
+    margin-top: 140px;
+}
+.content .cloud-right h2 {
+    font-size: 40px;
+    line-height: 40px;
+}
+.content .small {
+    margin-top: 30px;
+}
+.change {
+    margin-top: 60px;
+}
+.change .t-flex .cloud-right {
+    margin-left: 5%;
+}
+.change .t-flex h2 {
+    font-size: 30px;
+}
+.change .t-flex img {
+    width: 70%;
+    margin-left: 10%;
+}
+.the-end {
+    background-color: black;
+    margin-top: 30px;
+    height: 80vh;
+}
+.the-end .two-share {
+    width: 100%;
+}
+.the-end .letter {
+    font-size: 40px;
+    color: blanchedalmond;
+    text-align: center;
+    font-weight: bold;
+}
+.the-end .letter p {
+    padding-top: 30px;
+    line-height: 40px;
+}
+.the-end .icon1 img {
+    width: 7%;
+    margin: 0 20px;
+}
+.the-end .icon1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.the-end .icon2 img {
+    width: 7%;
+    margin: 0 20px;
+}
+.the-end .icon2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 750px){
+
+    .logo {
+        padding-left: 30px;
+    }
+    .burger{
+        display: block;
+        padding-right: 20px;
+    }
+    input {
+        padding: 10px 20px;
+        font-size: 20px;
+        margin-left: 170px;
+    }
+
+    .menu ul {
+        position: fixed;
+        width: 50%; 
+        height: 92vh;
+        top: 0vh;
+        display: flex;
+        flex-direction: column ;
+        /* text-align: right; */
+        align-items: flex-end;
+        right: 30px;
+        display: none;
+    }
+    div:hover ul {
+        display: block;
+        right:-100px;
+        top: 12vh;
+    }
+    a:hover {
+        color: blue;
+        text-decoration: underline;
+    }
+    .showcase1 .tool-design {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .showcase1 .box-right img{
+        width:90%;
+        margin-left: 5%;
+    }
+    .showcase1 .box-left {
+        width: 90;
+        margin-left: 5%;
+    }
+    .showcase1 .box-left .free {
+        margin-left: 20%;
+    }
+
+    .showcase2 .title p {
+        font-size: 18px;
+    }
+    .showcase2 .img-letter {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .showcase2 .conduct img {
+        width: 80%;
+        margin: 0 10%;
+    }
+    .conduct .t-bottom {
+        margin:  20px 10%;
+    }
+    .showcase2 .free {
+        font-size: 18px;
+        color: lavenderblush;
+        background-color: black;
+        margin: 0 20%;
+        /* padding: 13px 25px ; */
+        border-radius: 8px;
+        font-weight: bold;
+        width: 65%;
+    }
+
+    .showcase3 .content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 250%;
+        margin-left: 10%;
+    }
+    .showcase3 .cloud-right {
+        margin-left: 5%;
+        margin-top: 50px;
+    }
+    .change .t-flex {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .change .t-flex img {
+        margin-top: 40px;
+        width: 90%;
+        margin-left: 0;
+    }
+    .the-end {
+        height: 80vh;
+    }
+    .the-end .two-share {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .the-end .letter p {
+        font-size: 20px;
+    }
+    .the-end .icon1 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 30px;
+    }
+    .the-end .icon2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .the-end .icon2 img {
+        width: 20%;
+        margin: 7px 20px;
+    }
+    .the-end .icon1 img {
+        width: 20%;
+        margin: 5px 20px;
+    }
+}
