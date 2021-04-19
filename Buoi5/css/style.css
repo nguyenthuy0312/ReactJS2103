@@ -1,0 +1,445 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header {
+    width: 100%;
+    background: url("../images/background.jpg");
+}
+.figma-land {
+    display: flex;
+}
+.figma-land img {
+    width: 50%;
+    margin-left: 20px;
+}
+.menu nav {
+    /* padding-top: 20px; */
+    padding: 15px;
+}
+.menu nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+.menu nav ul li { 
+    list-style-type: none;
+    margin: 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.letter {
+    color: aliceblue;
+    text-align: center;
+}
+.letter h1 {
+    font-size: 35px;
+    width: 35%;
+    margin: 20px;
+    margin-left: 35%;
+}
+.letter input {
+    margin: 20px;
+    color: aliceblue;
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.header .burger {
+    margin-top: 20px;
+    margin-right: 10px;
+    /* margin-left: 0; */
+    display: none;
+}
+.header .burger div {
+    width: 25px;
+    height: 4px;
+    background-color: white;
+    margin: 5px;
+}
+.feature {
+    width: 100%;
+}
+.feature .letter1 {
+    text-align: center;
+    margin-top: 30px;
+}
+.letter1 h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.letter1 p {
+    font-size: 30px;
+    line-height: 30px;
+    color: #7f7f7f;
+}
+.container .grids {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.container .grids .font-data {
+    margin: 20px 5%;
+}
+.grids .font-data .icon {
+    text-align: center;
+}
+.grids .font-data .icon img {
+    width: 20%;
+}
+.font-data .open p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 15px;
+    text-align: center;
+}
+.font-data .slate p{
+    font-size: 20px;
+    color: #7f7f7f;
+    text-align: center;
+}
+.container .img-video {
+    text-align: center;
+}
+.container .img-video img{
+    width: 80%;
+}
+.organize {
+    width: 100%;
+}
+.organize .grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    line-height: 40px;
+}
+.organize .grid2 .o-left {
+    text-align: center;
+    width: 45%;
+    margin-left: 25%;
+}
+.grid2 .o-left input {
+    padding: 10px 30px;
+    font-weight: bold;
+    color: bisque;
+    background-color: blue;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+.organize .grid2 .o-left h1 {
+    font-size: 30px;
+}
+.organize .grid2 .o-left p {
+    font-size: 25px;
+    color: #7f7f7f;
+}
+.organize .grid2 .o-right img {
+    width: 80%;
+}
+.organext .grid3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 8%;
+}
+.organext .grid3 .n-left img {
+    width: 80%;
+}
+.organext .grid3 .n-right {
+    line-height: 40px;
+}
+.grid3 .n-right h1 {
+    font-size: 30px;
+    color:dimgray;
+}
+.grid3 .n-right #letter {
+    color: dimgray;
+}
+.organext .grid3 .n-right p {
+    font-family: 20px;
+    font-weight: bold;
+}
+.organext .grid3 .n-right .log-email #logmail {
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.organext .grid3 .n-right .log-email #loin {
+    padding: 10px 30px;
+    margin-left: 30px;
+    color: floralwhite;
+    background-color: mediumblue;
+    border-radius: 10px;
+}
+.partners {
+    width: 100%;
+}
+.partners .consist {
+    text-align: center;
+}
+.partners .consist {
+    line-height: 50px;
+}
+.partners .consist .c-head {
+    font-size: 25px;
+    color: gray;
+}
+.partners .consist .c-picture {
+    margin-left: 20%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.c-picture .picture1 {
+    display: flex;
+}
+.c-picture .picture1 img {
+    width: 17%;
+    height: 15vh;
+}
+.c-picture .picture2 {
+    display: flex;
+}
+.c-picture .picture2 img {
+    width: 17%;
+    height: 15vh;
+}
+.consist .c-forme input {
+    padding: 10px 40px;
+    color: honeydew;
+    background-color: mediumblue;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.showline {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+.showline .monials {
+    line-height: 40px;
+    text-align: center;
+}
+.showline .monials img {
+    width: 10%;
+}
+.showline .monials #large img {
+    width: 5%;
+}
+.showline .monials h2 {
+    font-size: 25px;
+    margin: 20px;
+}
+.showline .monials p {
+    font-size: 20px;
+}
+.showline .monials input {
+    margin-top: 20px;
+    padding: 10px 40px;
+    color: mintcream;
+    background-color: navy;
+    border-radius: 13px;
+}
+.big-show {
+    width: 100%;
+    margin-top: 50px;
+    background-color: #13233f;
+    padding: 10% 10%;
+    height: 100%;
+}
+.price {
+    text-align: center;
+}
+.price .b-header {
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+    color: lightyellow;
+    /* padding-top: 40px; */
+}
+.price .b-grids {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 70%;
+    gap: 5%;
+    margin-left: 15%;
+    
+}
+.price .b-grids .free {
+    margin-top: 60px;
+    line-height: 40px;
+    width: 100%;
+    background-color: lightyellow;
+    padding: 5% 5%;
+    border-radius: 10px;
+}
+.free .o-title p {
+    font-size: 20px;
+}
+.free .money {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.free .money .figure {
+    font-size: 60px;
+    font-weight: bolder;
+}
+.free .money .pers {
+    line-height: normal;
+}
+.free .money .pers .dola {
+    font-weight: bold;
+    font-size: 20px;
+}
+.free .money .pers .leter {
+    font-size: 20px;
+}
+.free .order input {
+    padding: 10px 35px;
+    color: lightyellow;
+    background-color: mediumblue;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.free #standard {
+    background-color: mediumblue;
+    color: mintcream;
+}
+.footer {
+    width: 100%;
+}
+.footer .grid-show {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    background-color: #13233f;
+}
+.grid-show .location {
+    line-height: 30px;
+    margin: 30px 20%;
+    color: mintcream;
+    margin-top: 25%;
+}
+.grid-show .location .p-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+.grid-show .location .part {
+    font-size: 17px;
+}
+.icons {
+    /* line-height: 10px; */
+    margin-top: 20%;
+}
+.icons p {
+    color: mintcream;
+}
+.icons .logo1{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.icons .logo2{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.icons img {
+    width: 15%;
+}
+@media screen and (max-width: 750px) {
+    .figma-land img {
+        width: 50%;
+        margin-left: 0;
+    }
+    .menu nav{
+        /* padding-top: 20px; */
+        padding: 5px;
+    }
+    .menu nav ul {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-left: 70%;
+    }
+    .header .burger {
+        display: block;
+    }
+    .menu nav ul {
+        display: none;
+    }
+    .burger .div:hover nav ul {
+        display: block;
+    }
+    .container .grids {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .organize .grid2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        line-height: 40px;
+    }
+    .organize .grid2 .o-right img {
+        margin-left: 10%;
+        margin-top: 30px;
+    }
+    .organext .grid3 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .organext .grid3 .n-right {
+        text-align: center;
+    }
+    .organext .grid3 .n-right .log-email {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 55%;
+        margin-left: 20%;
+        margin-top: 20px;
+    
+    }
+    .grid3 .n-right .log-email #loin {
+        width: 35%;
+        margin-top: 20px;
+    }
+    .partners {
+        width: 100%;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .c-picture .picture1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .c-picture .picture1 img {
+        width: 60%;
+        margin: 10px;
+    }
+    .c-picture .picture2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .c-picture .picture2 img {
+        width: 60%;
+        margin: 10px;
+    }
+    .price .b-grids {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 15%;
+    }
+    .footer .grid-show {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        background-color: #13233f;
+        padding-top: 20%;
+    }
+}
+
